@@ -16,3 +16,38 @@ nav {
     z-index: 200;
     transition: all 0.5s;
 }
+
+body.dark nav {
+    background-color: rgba(0, 0, 0, 0.4);
+    /* background-color: #333; */
+}
+
+.left_nav {
+    padding: 0 10px;
+    border-bottom: 1px solid black;
+}
+
+.left_nav p {
+    font-weight: 600;
+    font-size: 20px;
+    color: darkslategray;
+    cursor: pointer;
+    font-family: 'Open Sans';
+}
+
+body.dark .left_nav p {
+    color: gold;
+}
+
+.right_nav {
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_links {
+    height: 100%;
+    display: flex;
+    align-items: center;
+     padding: 8px 15px;
+}
