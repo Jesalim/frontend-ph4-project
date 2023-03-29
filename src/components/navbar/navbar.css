@@ -51,3 +51,88 @@ body.dark .left_nav p {
     align-items: center;
      padding: 8px 15px;
 }
+.nav_links ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+.nav_links ul li {
+    cursor: pointer;
+    color: black;
+}
+
+body.dark .nav_links ul li {
+    color: aliceblue;
+}
+
+.nav_links ul li:nth-child(4) {
+    display: none;
+}
+
+.nav_links.ticket ul li:nth-child(4) {
+    display: block;
+}
+
+.nav_links.ticket ul li:nth-child(1), .nav_links.ticket ul li:nth-child(2), .nav_links.ticket ul li:nth-child(3),  .nav_links.ticket ul li:nth-child(6){
+    /* color: red; */
+    display: none;
+}
+
+.theme_container {
+    width: 60px;
+    height: 25px;
+    background-color: #000;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+    position: relative;
+}
+
+#indicator {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    width: 25px;
+    height: 25px;
+    /* margin-left: 0.5px; */
+    background-color: darkorange;
+    border-radius: 50%;
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+#indicator.dark {
+    left: calc(100% - 25px);
+}
+
+#sun {
+    color: yellow;
+}
+
+#moon {
+    color: white;
+}
+
+#menu_box {
+    display: none;
+    cursor: pointer;
+    margin-bottom: 2px;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin-left: 20px;
+    margin-top: 3px;
+    transition: all 0.5s;
+}
+
+body.dark .bar {
+    background-color: gold;
+}
+
