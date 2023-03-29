@@ -4,7 +4,7 @@ import './about.css'
 function About() { 
   return ( 
     <>
-    <div className='abot_section' id='section4' >
+    <div className='about_section' id='section4' >
        <div className='about_info_container'>
       <div className='about_info'>
         <div>
