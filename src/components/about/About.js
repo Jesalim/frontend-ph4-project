@@ -17,6 +17,7 @@ function About() {
           <p>Duty : _________</p>
         </div> */}
       </div>
+
       <div className='about_info'>
         <div>
           <p>Name : <span className='names'>Marylucy Atieno.</span></p>
