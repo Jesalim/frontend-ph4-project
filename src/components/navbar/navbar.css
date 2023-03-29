@@ -235,3 +235,48 @@ body.dark .bar {
   }
 }
 
+/* Animations end */
+
+
+
+
+@media screen and (max-width: 600px) {
+    #menu_box {
+        display: block;
+    }
+    .nav_links {
+        position: absolute;
+        top: 70px;
+        right: -80%;
+        width: 200px;
+        height: 200px;
+        padding: 25px 10px;
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+        transition: all 0.5s ease-in-out;
+    }
+    .nav_links.show {
+        right: 8%;
+    }
+
+    body.dark .nav_links {
+    background-color: black;
+    }
+
+    body.dark .nav_links ul li {
+        color: azure;
+    }
+
+    .nav_links ul {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .nav_links ul li {
+        text-align: center;
+    }
+}
+
+
