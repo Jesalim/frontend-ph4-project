@@ -39,7 +39,7 @@ function About() {
         </div>
         {/* <div>
           <p>Duty : _________</p>
-        </div> */}
+        </div> */}      
       </div>
 
       <div className='about_info'>
