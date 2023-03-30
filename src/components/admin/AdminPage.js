@@ -5,17 +5,20 @@ class AdminPage extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      email: 'Jessica Gichuru',
+      email: 'JJ',
       flight: '911',
       time: '4:00 am',
       destination: 'Kisumu',
       contact: '0711610431'
     };
+    this.handleSubmit = this.handleSubmit.bind(this);
+    this.handleChange = this.handleChange.bind(this);
   }
 
   handleSubmit(event) {
     event.preventDefault();
     // handle the form submission here
+    console.log(this.state);
   }
 
   handleChange(event) {

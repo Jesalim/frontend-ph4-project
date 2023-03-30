@@ -55,7 +55,7 @@ function Login() {
             <h1>Signup Form</h1>
            </div>
            </div>
-{
+{ 
            <div className='member_form_toggles'>
                 <section className='toggles_container'>
                    <div><h1>Login</h1></div>
