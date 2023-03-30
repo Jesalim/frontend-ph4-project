@@ -107,6 +107,7 @@ function NavBar() {
             <li><Link to='/' onClick={main}>Main</Link></li>
             <li id=''><Link to='/ticket' onClick={ticket}>Ticket</Link></li>
             <li section = 'section4' className='links' onClick={ () => { about(); link();}} id='contact'>About</li>
+            <li><Link to='/admin'>Admin</Link></li>
           </ul>
         </div>
 
