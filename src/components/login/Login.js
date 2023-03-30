@@ -55,14 +55,14 @@ function Login() {
             <h1>Signup Form</h1>
            </div>
            </div>
-{/* 
+{
            <div className='member_form_toggles'>
                 <section className='toggles_container'>
                    <div><h1>Login</h1></div>
                    <div><h1>Signup</h1></div>
                    <i id='slider'></i>
                 </section>
-           </div> */}
+           </div> }
 
            <div className='member_page_2 member_pages halfTwo'>
            <div className='signup_form_inputs'>

@@ -6,14 +6,14 @@ import './navbar.css'
 
 function NavBar() {
 
-  // const homePage = document.getElementById('section1')
-  // const indicate = document.getElementById('indicator')
-  // const body = document.querySelector('body')
-  // const menuBox = document.getElementById('menu_box')
-  // const navLink = document.querySelector('.nav_links')
-  // const explorePage = document.getElementById('section2')
-  // const bookPage = document.getElementById('section3')
-  // const aboutPage = document.getElementById('section4')
+  const homePage = document.getElementById('section1')
+  const indicate = document.getElementById('indicator')
+  const body = document.querySelector('body')
+  const menuBox = document.getElementById('menu_box')
+  const navLink = document.querySelector('.nav_links')
+  const explorePage = document.getElementById('section2')
+  const bookPage = document.getElementById('section3')
+  const aboutPage = document.getElementById('section4')
 
 
 
@@ -50,9 +50,9 @@ function NavBar() {
 
   const home = () => {
     const homePage = document.getElementById('section1')
-    // const navBar = document.querySelector('.nav_links')
+     const navBar = document.querySelector('.nav_links')
     homePage.scrollIntoView({behavior: 'smooth', block: 'end'})
-    // navBar.classList.remove('ticket')
+     navBar.classList.remove('ticket')
   }
 
   const explore = () => {
@@ -70,12 +70,12 @@ function NavBar() {
     aboutPage.scrollIntoView({behavior: 'smooth', block: 'end'})
   }
 
-  // if (window.location.pathname==="/home"){
-  //   // alert("Home Page")
-  //   console.log('home');
-  // }else if (window.location.pathname==="/ticket"){
+   if (window.location.pathname==="/home"){
+     alert("Home Page")
+     console.log('home');
+   }else if (window.location.pathname==="/ticket"){
 
-  // }
+   }
 
 
   const ticket = () => {
