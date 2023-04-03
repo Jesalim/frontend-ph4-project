@@ -5,6 +5,7 @@ import Book from '../book/Book'
 import WhyUs from '../whyUs/WhyUs'
 import About from '../about/About'
 import Footer from '../Footer'
+import LogoutButton from '../logout/LogoutButton'
 
 function Main() {
   return (

@@ -103,7 +103,7 @@ function Book() {
       return_date
     }
 
-    fetch('https://plane-passengers.herokuapp.com/passengers', {
+    fetch('https://project-c92s.onrender.com/booking', {
       method: 'POST',
       headers: { 'Content-Type':'application/json'},
       body: JSON.stringify(user)
