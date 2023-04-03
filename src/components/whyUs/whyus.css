@@ -44,3 +44,30 @@
     /* justify-content: center; */
     /* background-color: aqua; */
 }
+
+.why_divs hr {
+    width: 1px;
+    border: 0.5px solid orange;
+    background-color: orange;
+    height: 90%;
+    margin: auto;
+}
+
+.star {
+    color: gold;
+    font-size: 18px;
+    /* margin-right: 5px; */
+    margin-top: 60px;
+}
+
+.why_text {
+    margin-top: 10px;
+    display: block;
+    font-size: 15px;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 1208px) {
+    .why_us_section {display: none;}
+}
