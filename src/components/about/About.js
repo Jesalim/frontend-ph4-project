@@ -37,9 +37,9 @@ function About() {
         <div>
           <p>Duty : Backend Developing<br/> (Scrum master)</p>
         </div>
-        {/* <div>
+        { <div>
           <p>Duty : _________</p>
-        </div> */}
+        </div> }      
       </div>
 
       <div className='about_info'>
