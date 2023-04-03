@@ -9,11 +9,20 @@
   </p>
 </div>
 
+
+
 ## About The Project.
 Welcome to our flight booking website! With our easy-to-use interface, you can quickly search for available flights, select your preferred travel dates and destinations, and book your flight in just a few clicks. Our website provides real-time information on flight schedules, ticket prices, and available seats from a range of airlines, making it easy to find the best flight deals and plan your trip with ease. We also offer various payment options and support for multiple languages, so you can book your flight from anywhere in the world.
 
  ### The project was built with:
  * JS React
+
+## deployment frontend link
+https://frontend-ph4-project.vercel.app/
+
+## deployment backend link
+https://airline-app.onrender.com/
+
 
  <!-- GETTING STARTED -->
 ## Getting Started
@@ -41,7 +50,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 ## Contact
 Marylucy Atieno.  - [marylucyatienoomenda@gmail.com](email)
 Kidhri Salim. 
-Jessica Gichuru.
+Jessica Gichuru.  - [jessica.gichuru@student.moringaschool.com]
 Nicholas Mwaura.
 
 

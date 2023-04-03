@@ -3,7 +3,7 @@ import './logoutbutton.css';
 
 const LogoutButton = () => {
   const handleLogout = () => {
-    fetch('http://127.0.0.1:3000/user/logout', {
+    fetch('https://airline-app.onrender.com/user/logout', {
       method: 'DELETE',
       credentials: 'include' // This is required to send cookies along with the request
     })

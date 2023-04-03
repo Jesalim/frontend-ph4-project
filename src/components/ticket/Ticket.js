@@ -5,7 +5,7 @@ function Ticket() {
   const [tickets, setTickets] = useState([]);
 
   useEffect(() => {
-    fetch('https://project-c92s.onrender.com/flights')
+    fetch('https://airline-app.onrender.com/flights')
       .then(res => res.json())
       .then(setTickets)
   }, []);
@@ -17,7 +17,7 @@ function Ticket() {
       departureTime: 'New Departure Time'
     };
 
-    fetch('https://project-c92s.onrender.com/flights', {
+    fetch('https://airline-app.onrender.com/flights', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'

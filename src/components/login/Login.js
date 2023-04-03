@@ -9,7 +9,7 @@ function Login() {
   function handleMember(e) {
     e.preventDefault();
 
-    const endpoint = isSignup ? 'https://project-c92s.onrender.com/user/signup' : 'https://project-c92s.onrender.com/user/login';
+    const endpoint = isSignup ? 'https://airline-app.onrender.com/user/signup' : 'https://airline-app.onrender.com/user/login';
 
     // Send request
     fetch(endpoint, {

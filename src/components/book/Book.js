@@ -103,7 +103,7 @@ function Book() {
       return_date
     }
 
-    fetch('https://project-c92s.onrender.com/booking', {
+    fetch('https://airline-app.onrender.com/booking', {
       method: 'POST',
       headers: { 'Content-Type':'application/json'},
       body: JSON.stringify(user)
