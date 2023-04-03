@@ -7,6 +7,7 @@ import Ticket from './components/ticket/Ticket'
 import { Route, Routes } from 'react-router-dom';
 import Login from './components/login/Login';
 import AdminPage from './components/admin/AdminPage';
+import LogoutButton from './components/logout/LogoutButton';
 
 function App() {
   return (

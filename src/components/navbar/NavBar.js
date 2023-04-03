@@ -3,6 +3,7 @@ import { BsFillSunFill } from 'react-icons/bs'
 import { IoIosMoon } from 'react-icons/io'
 import { Link } from 'react-router-dom'
 import './navbar.css'
+import LogoutButton from '../logout/LogoutButton'
 
 function NavBar() {
 
@@ -50,9 +51,9 @@ function NavBar() {
 
   const home = () => {
     const homePage = document.getElementById('section1')
-    // const navBar = document.querySelector('.nav_links')
+     const navBar = document.querySelector('.nav_links')
     homePage.scrollIntoView({behavior: 'smooth', block: 'end'})
-    // navBar.classList.remove('ticket')
+     navBar.classList.remove('ticket')
   }
 
   const explore = () => {
@@ -70,12 +71,17 @@ function NavBar() {
     aboutPage.scrollIntoView({behavior: 'smooth', block: 'end'})
   }
 
-  // if (window.location.pathname==="/home"){
-  //   // alert("Home Page")
-  //   console.log('home');
-  // }else if (window.location.pathname==="/ticket"){
+  const admin = () => {
+    const adminpage = document.getElementById('section5')
+    adminpage.scrollIntoView({behavior: 'smooth', block: 'end'})
+  }
 
-  // }
+   if (window.location.pathname==="/home"){
+      alert("Home Page")
+     console.log('home');
+   }else if (window.location.pathname==="/ticket"){
+
+   }
 
 
   const ticket = () => {
@@ -107,7 +113,8 @@ function NavBar() {
             <li><Link to='/' onClick={main}>Main</Link></li>
             <li id=''><Link to='/ticket' onClick={ticket}>Ticket</Link></li>
             <li section = 'section4' className='links' onClick={ () => { about(); link();}} id='contact'>About</li>
-            <li><Link to='/admin'>Admin</Link></li>
+            <li section = 'section5'  className='links' onClick={ () => { admin(); link();}} id='admin'>AdminPage</li>
+            <li><LogoutButton /></li>
           </ul>
         </div>
 
