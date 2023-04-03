@@ -13,6 +13,7 @@ function Login() {
 
     // Send request
     fetch(endpoint, {
+      mode: 'no-cors',
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
