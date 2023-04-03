@@ -47,7 +47,7 @@ function NavBar() {
 
     }, 100);
   }
-  onst home = () => {
+  const home = () => {
     const homePage = document.getElementById('section1')
     // const navBar = document.querySelector('.nav_links')
     homePage.scrollIntoView({behavior: 'smooth', block: 'end'})
