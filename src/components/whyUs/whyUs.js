@@ -29,3 +29,17 @@ function WhyUs() {
                       <p>Comfort Airlines is the most Comfortable planes with the best Seats in the entire World. </p>
                       </div>
                   </div><hr/>
+                  <div>
+                    <GiSevenPointedStar className='star' />
+                    <h5>Private</h5>
+                    <div className='why_text'>
+                    <p>Looking for a Private jet, Comfort Airlines provides you high quality Private Jet.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  )
+}
+
+export default WhyUs
