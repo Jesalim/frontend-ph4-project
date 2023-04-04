@@ -86,7 +86,7 @@ function Book() {
     pageThree.style.left = '0'
     pageFour.style.left = '500px'
     bookingForm.style.height = '400px'
-  }
+  };
 
   const handleSubmit = (e) => {
      const user = {

@@ -13,7 +13,8 @@ function App() {
     <>
     {/* Uncomment the Login part to finish up with Authentications */}
     
-     { <Login /> }
+     { <Login />  }
+     { <LogoutButton />}
      <NavBar />
      <section className='sections'>
        <Routes>
